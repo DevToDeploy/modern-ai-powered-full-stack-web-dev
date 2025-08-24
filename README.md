@@ -55,7 +55,7 @@ We focus on **practical, market-driven training** and ensure our graduates meet 
 ---
 
 ## 🏗 Course Structure & Learning Flow
-The program is divided into **monthly modules (12–16 months)**:
+The program is divided into **quarterly modules (18 months)**:
 - 📖 **Guided Video Lectures** – step-by-step explanations.  
 - 💻 **Code Labs & Assignments** – practical coding exercises.  
 - 🧑‍💻 **Project Work** – real-world projects every month.  
@@ -73,7 +73,7 @@ A certification recognized and designed to align with **global 2025+ market tren
 
 ## 🚀 Enrollment – Get Started Now!
 Seats are **limited** for the 2025 edition.  
-👉 [**Enroll Now**](https://your-enrollment-link.com) *(placeholder link – replace with your official enrollment page)*  
+👉 [**Enroll Now**](https://forms.gle/y9o6HqveqgDFBGyx9)
 
 For details:  
 - **Email:** skillshub@devtodeploy.co  
@@ -99,7 +99,6 @@ Our **market-driven curriculum** prepares students for **global IT opportunities
 
 ---
 
-### **Tags (SEO Optimized)**
 `#DevToDeploy` `#SkillsHub` `#MERNStack` `#AIWebEngineer` `#Nextjs` `#FullStackDeveloper` `#MachineLearning` `#CloudDevOps` `#Freelancing` `#AIWebApps`
 
 ---
