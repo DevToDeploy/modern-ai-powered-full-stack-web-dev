@@ -1,37 +1,32 @@
 # Certified Full-Stack (MERN) AI-Powered Web Engineer - DevToDeploy Skills Hub (2025)
 
-Welcome to the **official course repository** for the **Certified
-Full-Stack (MERN) AI-Powered Web Engineer Program** by **DevToDeploy
-Skills Hub**, an initiative of **DevToDeploy (SMC-Private) Limited**.
+Welcome to the **official course repository** for the **Certified Full-Stack (MERN) AI-Powered Web Engineer Program** by **DevToDeploy Skills Hub**, an initiative of **DevToDeploy (SMC-Private) Limited**.
 
 This **18-month paid flagship program (2025 edition)** is meticulously
 designed to transform you into a highly skilled engineer proficient in
 **MERN Stack Development** (MongoDB, Express.js, React.js, Node.js) and
 its integration with **Artificial Intelligence & Machine Learning**.
-You'll learn how to **build, deploy, and scale intelligent,
-production-grade web applications**, a skillset in high demand by
-employers and clients worldwide.
+You’ll learn how to **build, deploy, and scale AI-powered web applications** – a skillset highly demanded by employers and clients worldwide.
 
 By the end of this program, you will have:
-
 -   A **job-ready portfolio** featuring multiple AI-powered, full-stack projects.
-
 -   **Hands-on experience** with cutting-edge web and AI technologies, including OpenAI, LangChain, and TensorFlow.js.
 
 -   A prestigious **Certification** as a *Full-Stack (MERN) AI-Powered Web Engineer*.
 
+---
+
 ## 🌍 Our Vision - Powered by DevToDeploy (SMC-Private) Limited
 
-**DevToDeploy Skills Hub**, under the umbrella of **DevToDeploy
-(SMC-Private) Limited**, is committed to bridging the critical gap
-between **academia and industry**.
+**DevToDeploy Skills Hub**, under the umbrella of **DevToDeploy (SMC-Private) Limited**, is committed to bridging the critical gap between **academics and industry**. 
 
-> *To empower students and professionals with future-ready skills in
-> MERN, AI, and Cloud technologies, enabling them to compete globally as
-> innovators, freelancers, and industry leaders.*
+### **Our Vision:**
+> *To empower students and professionals with future-ready skills in MERN, AI, and Cloud technologies, enabling them to compete globally as innovators, freelancers, and industry leaders.*
 
 We focus on **practical, market-driven training** to ensure our
 graduates meet and exceed **2025+ industry standards**.
+
+---
 
 ## 📚 Detailed Curriculum (18 Months \| 6 Quarters)
 
@@ -139,12 +134,11 @@ market.
 ## 🏆 Certification
 
 Upon successful completion, you will be awarded:
+**“Certified Full-Stack (MERN) AI-Powered Web Engineer – DevToDeploy Skills Hub”** 🎓  
 
-"Certified Full-Stack (MERN) AI-Powered Web Engineer -- DevToDeploy
-Skills Hub" 🎓
+This certification is designed to align with and be recognized by **global 2025+ market trends**.
 
-This certification is designed to align with and be recognized by global
-2025+ market trends.
+---
 
 ## 🚀 Enrollment -- Get Started Now!
 
@@ -158,6 +152,8 @@ For inquiries:
 
 -   **Phone/WhatsApp:** +92-317-1291912
 
+---
+
 ## 🤝 Community & Support
 
 -   💬 **Exclusive Discord Community:** Collaborate with peers, mentors,
@@ -169,8 +165,25 @@ For inquiries:
 -   📧 **Direct Email Support:** Get your questions answered at \>
     skillshub@devtodeploy.co.
 
+---
+
+## 🔗 About DevToDeploy Skills Hub
+**DevToDeploy Skills Hub** is the **Academy of Technology & Innovation** of **DevToDeploy (SMC-Private) Limited**, providing:
+- Full-Stack Web Development (MERN & Next.js)  
+- AI & ML Integration for Web Apps  
+- Cloud Technologies & DevOps  
+- Freelancing & Career Mentorship  
+
+Our **market-driven curriculum** prepares students for **global IT opportunities**, freelancing, and entrepreneurship.
+
+---
+
 -   🎯 **Career Support:** Benefit from resume reviews, mock interviews, and personalized freelancing guidance.
 
-#DevToDeploy #SkillsHub #MERNStack #AIWebEngineer #Nextjs
-#FullStackDeveloper #MachineLearning #CloudDevOps #Freelancing
-#AIWebApps
+---
+
+`#DevToDeploy` `#SkillsHub` `#MERNStack` `#AIWebEngineer` `#Nextjs` `#FullStackDeveloper` `#MachineLearning` `#CloudDevOps` `#Freelancing` `#AIWebApps`
+
+---
+
+**DevToDeploy Skills Hub – Empowering the Next Generation of Tech Leaders!**
