@@ -9,19 +9,16 @@ designed to transform you into a highly skilled engineer proficient in
 **MERN Stack Development** (MongoDB, Express.js, React.js, Node.js) and
 its integration with **Artificial Intelligence & Machine Learning**.
 You'll learn how to **build, deploy, and scale intelligent,
-production-grade web applications**---a skillset in high demand by
+production-grade web applications** a skillset in high demand by
 employers and clients worldwide.
 
 By the end of this program, you will have:
 
--   A **job-ready portfolio** featuring multiple AI-powered, full-stack
-    \> projects.
+-   A **job-ready portfolio** featuring multiple AI-powered, full-stack projects.
 
--   **Hands-on experience** with cutting-edge web and AI technologies,
-    \> including OpenAI, LangChain, and TensorFlow.js.
+-   **Hands-on experience** with cutting-edge web and AI technologies, including OpenAI, LangChain, and TensorFlow.js.
 
--   A prestigious **Certification** as a *Full-Stack (MERN) AI-Powered
-    \> Web Engineer*.
+-   A prestigious **Certification** as a *Full-Stack (MERN) AI-Powered Web Engineer*.
 
 ## 🌍 Our Vision -- Powered by DevToDeploy (SMC-Private) Limited
 
