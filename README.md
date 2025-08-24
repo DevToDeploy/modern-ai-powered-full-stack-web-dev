@@ -109,6 +109,8 @@ market.
 
 -   **Capstone Project:** A production-ready, AI-powered SaaS application deployed to the cloud, serving as the masterpiece of your professional portfolio.
 
+---
+
 ## 👥 Who Should Enroll?
 
 -   🎓 **Students & Fresh Graduates** seeking in-demand, marketable skills.
@@ -118,6 +120,8 @@ market.
 -   💻 **Freelance Developers** aiming to elevate their portfolio with AI-powered projects.
 
 -   👨‍💻 **Junior Engineers** looking to advance into more senior full-stack and AI-focused roles.
+
+---
 
 ## 🛠 Key Hands-On Projects
 
@@ -130,6 +134,8 @@ market.
 4.  **AI Analytics Dashboard:** A data visualization dashboard that integrates predictive insights from a custom-trained machine learning model.
 
 5.  **Capstone Project:** A polished, production-ready, AI-powered SaaS application deployed to the cloud, designed to solve a real-world problem.
+
+---
 
 ## 🏆 Certification
 
