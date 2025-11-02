@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-Seven-Form</title>
+</head>
+
+<body>
+    <!-- Form Structure: <form> -->
+    <!-- The container element for creating a form. -->
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>
+            This is where the form controls will appear.
+        </p>
+    </form>
+
+    <form action="/submit" method="POST">
+        <!-- Form content goes here -->
+    </form>
+
+    <!-- Text Input: <input> -->
+    <!-- Text Input -->
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </form>
+
+    <!-- Password Input -->
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <form action="">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </form>
+
+    <!-- Text Area Input -->
+    <form action="">
+        <form action="http://www.example.com/comments.php">
+            <p>What did you think of this gig?</p>
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+        </form>
+    </form>
+
+    <!-- Email Input -->
+    <form action="">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </form>
+
+    <!-- Number Input -->
+    <form action="">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100">
+    </form>
+
+    <!-- Telephone Input -->
+    <form action="">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+    </form>
+
+    <!-- URL Input -->
+    <form action="">
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+    </form>
+
+    <!-- Search Input -->
+    <form action="">
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+    </form>
+
+    <!-- Date Input -->
+    <form action="">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    </form>
+
+    <!-- Time Input -->
+    <form action="">
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+    </form>
+
+    <!-- Range Input -->
+    <form action="">
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+    </form>
+
+    <!-- Color Input -->
+    <form action="">
+        <label for="favcolor">Favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </form>
+
+    <!-- Checkbox Input -->
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+    </form>
+
+    <form action="">
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+    </form>
+
+    <!-- Radio Button Input -->
+    <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+        </p>
+    </form>
+
+    <form action="">
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+    </form>
+
+    <!-- Submit Button -->
+    <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+
+    <form action="">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Reset Button -->
+    <form action="">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- File Upload -->
+    <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+    </form>
+
+    <form action="">
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" name="file">
+    </form>
+
+    <!-- Hidden Input -->
+    <form action="">
+        <input type="hidden" name="user_id" value="12345">
+    </form>
+
+    <!-- Drop Down List Box -->
+    <form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+
+    <!-- Multiple Select Box -->
+    <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments?
+            (You can select more than one option by holding
+            down control on a PC or command key on a Mac
+            while selecting different options.)</p>
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected="selected">
+                Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+    </form>
+
+    <!-- Image Button Input -->
+    <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="images/subscribe.jpg" width="100" height="20" />
+    </form>
+
+    <!-- Button & Hiddeen Controls -->
+    <form action="http://www.example.com/add.php">
+        <button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+        <input type="hidden" name="bookmark" value="lyrics" />
+    </form>
+
+    
+
+
+</body>
+
+</html>

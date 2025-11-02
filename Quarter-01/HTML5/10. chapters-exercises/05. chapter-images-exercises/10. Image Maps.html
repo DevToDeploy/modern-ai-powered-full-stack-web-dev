@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Maps</title>
+</head>
+
+<body>
+    <h2>Interactive Image Map Example</h2>
+    <img src="https://example.com/map-image.jpg" alt="Clickable map" usemap="#map" width="500" height="300">
+
+    <map name="map">
+        <area shape="rect" coords="34,44,270,350" href="https://example.com/area1" alt="Area 1">
+        <area shape="circle" coords="337,300,44" href="https://example.com/area2" alt="Area 2">
+        <area shape="poly" coords="370,410,450,400,420,500,300,510" href="https://example.com/area3" alt="Area 3">
+    </map>
+
+</body>
+
+</html>

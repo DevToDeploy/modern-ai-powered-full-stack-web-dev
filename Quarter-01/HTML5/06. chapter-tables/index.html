@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter-Six-Table</title>
+</head>
+
+<body>
+    <table>
+        <caption>Student Scores</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>85</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>175</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Example 1: -->
+    <table>
+        <caption>Student Scores</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Emily</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>355</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Example 2: -->
+    <table>
+        <caption>Student Scores</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Oliver</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Sophia</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>333</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!-- Basic Table Structure -->
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <!-- Example 1: -->
+    <!-- Basic Table Structure -->
+    <table>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <!-- Example 2: -->
+    <!-- Basic Table Structure -->
+    <table>
+        <tr>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>25</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>40</td>
+            <td>45</td>
+        </tr>
+    </table>
+
+
+    <!-- Table Headings -->
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+
+    <!-- Example 1: -->
+    <!-- Table Headings -->
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>150</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$750</td>
+            <td>$800</td>
+        </tr>
+    </table>
+
+    <!-- Example 2: -->
+    <!-- Table Headings -->
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>110</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$550</td>
+            <td>$700</td>
+        </tr>
+    </table>
+
+
+    <!-- Spanning Columns -->
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+
+    <!-- Example 1: -->
+    <!-- Spanning Columns -->
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">Science</td>
+            <td>English</td>
+            <td>History</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td colspan="3">Art</td>
+            <td>Physical Education</td>
+        </tr>
+    </table>
+
+    <!-- Example 2: -->
+    <!-- Spanning Columns -->
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="2">Biology</td>
+            <td>Chemistry</td>
+            <td>Music</td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td colspan="3">Drama</td>
+            <td>Math</td>
+        </tr>
+    </table>
+
+
+    <!-- Spanning Rows -->
+    <table>
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+
+    <!-- Example 1: -->
+    <!-- Spanning Rows -->
+    <table>
+        <tr>
+            <th></th>
+            <th>HBO</th>
+            <th>Netflix</th>
+            <th>Disney+</th>
+        </tr>
+        <tr>
+            <th>8pm - 9pm</th>
+            <td rowspan="2">Drama</td>
+            <td>Documentary</td>
+            <td>Animation</td>
+        </tr>
+        <tr>
+            <th>9pm - 10pm</th>
+            <td>Thriller</td>
+            <td>Adventure</td>
+        </tr>
+    </table>
+
+    <!-- Example 2: -->
+    <!-- Spanning Rows -->
+    <table>
+        <tr>
+            <th></th>
+            <th>Fox</th>
+            <th>ESPN</th>
+            <th>National Geographic</th>
+        </tr>
+        <tr>
+            <th>5pm - 6pm</th>
+            <td rowspan="2">Reality Show</td>
+            <td>Football</td>
+            <td>Wildlife</td>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td>Basketball</td>
+            <td>Travel Documentary</td>
+        </tr>
+    </table>
+
+
+    <!-- Long Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Example 1: Sales Record -->
+    <!-- Long Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Units Sold</th>
+                <th>Returns</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st March</th>
+                <td>320</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>2nd March</th>
+                <td>298</td>
+                <td>3</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>31st March</th>
+                <td>150</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>9400</td>
+                <td>60</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Example 2: Attendance Record -->
+    <!-- Long Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st April</th>
+                <td>28</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>2nd April</th>
+                <td>27</td>
+                <td>3</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>30th April</th>
+                <td>30</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>810</td>
+                <td>45</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!-- Old Code: Width & Spacing -->
+    <table width="400" cellpadding="10" cellspacing="5">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td>410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td>1170.15</td>
+        </tr>
+    </table>
+
+    <!-- Old Code: Border & Background -->
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150" bgcolor="#cccccc">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td bgcolor="#cccccc">410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td bgcolor="#cccccc">1170.15</td>
+        </tr>
+    </table>
+
+    <!-- Example: TABLES -->
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Home starter hosting</th>
+                <th scope="col">Premium business hosting</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Disk space</th>
+                <td>250mb</td>
+                <td>1gb</td>
+            </tr>
+            <tr>
+                <th scope="row">Bandwidth</th>
+                <td>5gb per month</td>
+                <td>50gb per month</td>
+            </tr>
+            <!-- more rows like the two above here -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2">Sign up now and save 10%!</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

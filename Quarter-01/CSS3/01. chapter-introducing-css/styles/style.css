@@ -1,0 +1,102 @@
+h2 {
+    color: brown;
+    background-color: aqua;
+}
+
+/* CSS selectors */
+/* universal selector */
+* {
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+
+/* type selector */
+h3 {
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+
+p {
+    color: chocolate;
+}
+
+h2,
+li {
+    color: rgb(46, 4, 31);
+    background-color: rgb(201, 238, 122);
+}
+
+/* class selector */
+.heading {
+    color: violet;
+}
+
+#CSS_firstChapter {
+    color: yellow;
+}
+
+/* child selector */
+ul>li {
+    color: aqua;
+}
+
+ul.list-one>li {
+    color: red;
+}
+
+ul.list-two>li {
+    color: #b8860b;
+}
+
+div.main>p>b {
+    color: brown;
+}
+
+p>b {
+    color: blue;
+}
+
+/* Descendant Selector */
+div.main b {
+    color: blue;
+}
+
+/* Adjacent Sibling Selector */
+.html5+p {
+    color: blue;
+}
+
+/* General Sibling Selector */
+.html5~p {
+    color: brown;
+}
+
+/* How Css Rules Cascade */
+#test {
+    color: greenyellow;
+}
+
+h1 {
+    color: aqua;
+}
+
+h1 {
+    color: red;
+}
+
+.main {
+    color: aqua;
+}
+
+.main {
+    color: aqua !important;
+}
+
+.main {
+    color: rebeccapurple !important;
+}
+
+/* -- ------------------------------ */
+/* Inheritance */

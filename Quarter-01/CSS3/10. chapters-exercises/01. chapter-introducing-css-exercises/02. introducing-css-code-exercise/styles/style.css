@@ -1,0 +1,78 @@
+h2 {
+    color: brown;
+    background-color: aqua;
+}
+
+/* Universal selector */
+* {
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+
+/* Type selector */
+h3 {
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+
+p {
+    color: chocolate;
+}
+
+h2, li {
+    color: rgb(46, 4, 31);
+    background-color: rgb(201, 238, 122);
+}
+
+/* Class selector */
+.heading {
+    color: violet;
+}
+
+/* ID selector */
+#CSS_firstChapter {
+    color: yellow;
+}
+
+/* Child selector */
+ul>li {
+    color: aqua;
+}
+
+ul.list-one>li {
+    color: red;
+}
+
+ul.list-two>li {
+    color: #b8860b;
+}
+
+/* Descendant Selector */
+div.main b {
+    color: blue;
+}
+
+/* Adjacent Sibling Selector */
+.html5+p {
+    color: blue;
+}
+
+/* General Sibling Selector */
+.html5~p {
+    color: brown;
+}
+
+/* Cascading styles */
+#test {
+    color: greenyellow;
+}
+
+h1 {
+    color: red;
+}
+
+.main {
+    color: rebeccapurple !important;
+}

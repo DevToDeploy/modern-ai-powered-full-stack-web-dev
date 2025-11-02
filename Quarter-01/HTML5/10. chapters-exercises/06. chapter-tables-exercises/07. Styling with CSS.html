@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with CSS Styling</title>
+    <style>
+        thead {
+            background-color: #333;
+            color: white;
+        }
+        tbody {
+            background-color: #f9f9f9;
+        }
+        tfoot {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h2>Inventory</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Item A</td>
+                <td>$20</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Item B</td>
+                <td>$30</td>
+                <td>150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">End of Inventory</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
