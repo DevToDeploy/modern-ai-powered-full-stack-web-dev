@@ -9,9 +9,6 @@
 5. [HTML Document Example](#html-document-example)
 6. [Explaining Each Tag](#explaining-each-tag)
    * [<!DOCTYPE html>](#doctype-html)
-   * [<html> and </html>](#html-and-html)
-   * [<head> and </head>](#head-and-head)
-   * [<title> and </title>](#title-and-title)
    * [<meta> tags](#meta-tags)
    * [<body> and </body>](#body-and-body)
    * [<h1> and <h2> headings](#h1-and-h2-headings)
@@ -28,7 +25,7 @@
 HTML (HyperText Markup Language) is the **standard language used to create web pages**.
 It defines the **structure and layout** of a page using special codes called **tags** or **elements**.
 
-Every document on the web — from news articles to product pages — relies on **structure** to organize content clearly. HTML provides that structure so browsers can display pages properly.
+Every document on the web from news articles to product pages relies on **structure** to organize content clearly. HTML provides that structure so browsers can display pages properly.
 
 ---
 
@@ -50,9 +47,9 @@ A **Markup Language** means it uses special tags to describe the meaning and str
 
 A well-structured HTML document has three main parts:
 
-1. **DOCTYPE Declaration** — tells the browser the type of document.
-2. **Head Section** — contains meta information about the document.
-3. **Body Section** — contains the actual content shown to users.
+1. **DOCTYPE Declaration** tells the browser the type of document.
+2. **Head Section** contains meta information about the document.
+3. **Body Section** contains the actual content shown to users.
 
 📘 **Example:**
 
@@ -85,6 +82,65 @@ Tags act like **containers** that wrap around content and describe its purpose.
 Every HTML element usually has an opening and a closing tag — unless it’s a **self-closing tag** (like `<meta>` or `<img>`).
 
 ---
+# 🧭 HTML Headings & Paragraph Tags
+
+## 📘 Introduction
+HTML provides heading tags `<h1>` to `<h6>` and a paragraph tag `<p>` to define the structure and hierarchy of content on a web page.  
+Headings are used to represent titles and subtitles, while the paragraph tag is used for blocks of text.
+
+---
+
+## 🧱 Default Browser Font Sizes
+
+| Tag | Default Font Size | Default Font Weight | Description |
+|------|------------------|----------------------|--------------|
+| `<h1>` | **32px** | bold | Main page title |
+| `<h2>` | **24px** | bold | Section title |
+| `<h3>` | **18.72px** | bold | Subsection title |
+| `<h4>` | **16px** | bold | Smaller heading |
+| `<h5>` | **13.28px** | bold | Minor heading |
+| `<h6>` | **10.72px** | bold | Smallest heading |
+| `<p>`  | **16px** | normal | Standard paragraph text |
+
+> 🧩 **Note:**  
+> These are based on the browser’s default style (base font size = 16px).  
+> For example:
+> ```css
+> h1 { font-size: 2em; }
+> h2 { font-size: 1.5em; }
+> h3 { font-size: 1.17em; }
+> h4 { font-size: 1em; }
+> h5 { font-size: 0.83em; }
+> h6 { font-size: 0.67em; }
+> p  { font-size: 1em; }
+> ```
+
+---
+
+## 💡 Example Code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headings and Paragraph Example</title>
+</head>
+<body>
+  <h1>This is H1 Heading</h1>
+  <h2>This is H2 Heading</h2>
+  <h3>This is H3 Heading</h3>
+  <h4>This is H4 Heading</h4>
+  <h5>This is H5 Heading</h5>
+  <h6>This is H6 Heading</h6>
+
+  <p>This is a paragraph. It contains normal text and represents a block of content in HTML.</p>
+</body>
+</html>
+
+---
+
 
 ## 💻 HTML Document Example
 
