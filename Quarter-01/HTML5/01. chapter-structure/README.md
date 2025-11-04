@@ -8,10 +8,7 @@
 4. [HTML Tags and Elements](#html-tags-and-elements)
 5. [HTML Document Example](#html-document-example)
 6. [Explaining Each Tag](#explaining-each-tag)
-   * [<!DOCTYPE html>](#doctype-html)
-   * [<meta> tags](#meta-tags)
    * [<body> and </body>](#body-and-body)
-   * [<h1> and <h2> headings](#h1-and-h2-headings)
    * [<p> paragraphs](#p-paragraphs)
 7. [Attributes](#attributes)
 8. [Creating Your First Web Page](#creating-your-first-web-page)
@@ -79,7 +76,7 @@ Tags act like **containers** that wrap around content and describe its purpose.
 * **Element:** `<p>My paragraph text.</p>`
 
 **Tip:**
-Every HTML element usually has an opening and a closing tag — unless it’s a **self-closing tag** (like `<meta>` or `<img>`).
+Every HTML element usually has an opening and a closing tag, unless it’s a **self-closing tag** (like `<meta>` or `<img>`).
 
 ---
 # 🧭 HTML Headings & Paragraph Tags
@@ -212,7 +209,7 @@ The `lang="en"` attribute specifies that the page language is English.
 ### `<head>` and `</head>`
 
 **Purpose:**
-Contains **metadata** about the web page — information that is not displayed on the page itself but helps browsers and search engines understand it.
+Contains **metadata** about the web page, information that is not displayed on the page itself but helps browsers and search engines understand it.
 
 **Example:**
 
@@ -279,9 +276,9 @@ Everything inside these tags appears **on the actual web page** (in the browser 
 **Purpose:**
 Define headings and subheadings in a document.
 
-* `<h1>` – Main heading (used once per page)
-* `<h2>` – Subheading (used for sections)
-* `<h3>` to `<h6>` – Lower-level headings for nested structure
+* `<h1>` Main heading (used once per page)
+* `<h2>` Subheading (used for sections)
+* `<h3>` to `<h6>` Lower-level headings for nested structure
 
 **Example:**
 
