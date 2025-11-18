@@ -1,0 +1,41 @@
+<!-- Task 5: Use Placeholder, Minlength, Maxlength, and Pattern Attributes
+
+Instructions:
+Create a form with two inputs:
+
+A phone number input with:
+placeholder (e.g., 123-456-7890)
+pattern validation for a specific format
+
+A username field with:
+minlength
+maxlength
+placeholder
+
+Goal / Expected Output:
+Inputs that guide users with placeholder text and enforce strict formatting and length rules. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5 - Patterns</title>
+</head>
+<body>
+
+<form action="#">
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="0333-456-7890"
+           pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"
+           placeholder="Enter username"
+           minlength="4" maxlength="12" required>
+
+</form>
+
+</body>
+</html>
